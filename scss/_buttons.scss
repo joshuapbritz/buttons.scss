@@ -1,0 +1,167 @@
+$alert: #d64933;
+$success: #0c7c59;
+$info: #58a4b0;
+$warning: #ff7733;
+$primary: #4062bb;
+
+.btn {
+    min-width: 20px;
+    min-height: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: $primary;
+    border: solid 2px $primary;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+    margin: 7px 17px;
+    text-decoration: none;
+    outline: none !important;
+
+    &:hover {
+        background-color: transparent;
+        color: $primary;
+    }
+
+    &.lined {
+        background-color: transparent;
+        color: $primary;
+
+        &:hover {
+            background-color: $primary;
+            color: #ffffff;
+        }
+    }
+
+    &.alert {
+        background-color: $alert;
+        border: solid 2px $alert;
+
+        &:hover {
+            background-color: transparent;
+            color: $alert;
+        }
+
+        &.lined {
+            background-color: transparent;
+            color: $alert;
+
+            &:hover {
+                background-color: $alert;
+                color: #ffffff;
+            }
+        }
+    }
+
+    &.success {
+        background-color: $success;
+        border: solid 2px $success;
+
+        &:hover {
+            background-color: transparent;
+            color: $success;
+        }
+
+        &.lined {
+            background-color: transparent;
+            color: $success;
+
+            &:hover {
+                background-color: $success;
+                color: #ffffff;
+            }
+        }
+    }
+
+    &.info {
+        background-color: $info;
+        border: solid 2px $info;
+
+        &:hover {
+            background-color: transparent;
+            color: $info;
+        }
+
+        &.lined {
+            background-color: transparent;
+            color: $info;
+
+            &:hover {
+                background-color: $info;
+                color: #ffffff;
+            }
+        }
+    }
+
+    &.dark {
+        background-color: #252525;
+        border: solid 2px #252525;
+
+        &:hover {
+            background-color: transparent;
+            color: #252525;
+        }
+
+        &.lined {
+            background-color: transparent;
+            color: #252525;
+
+            &:hover {
+                background-color: #252525;
+                color: #ffffff;
+            }
+        }
+    }
+
+    &.warning {
+        background-color: $warning;
+        border: solid 2px $warning;
+
+        &:hover {
+            background-color: transparent;
+            color: $warning;
+        }
+
+        &.lined {
+            background-color: transparent;
+            color: $warning;
+
+            &:hover {
+                background-color: $warning;
+                color: #ffffff;
+            }
+        }
+    }
+
+    &.rounded {
+        border-radius: 100px;
+    }
+
+    &.lg {
+        padding: 20px 45px;
+    }
+
+    &.hg{
+        padding: 40px 65px;
+    }
+
+    &.grows {
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    &.shrinks {
+        &:hover {
+            transform: scale(0.9);
+        }
+    }
+
+    &.justify{
+        display: block;
+    }
+
+
+}
+

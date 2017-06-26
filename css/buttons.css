@@ -1,0 +1,97 @@
+.btn {
+  min-width: 20px;
+  min-height: 30px;
+  display: inline-block;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #4062bb;
+  border: solid 2px #4062bb;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+  margin: 7px 17px;
+  text-decoration: none;
+  outline: none !important; }
+  .btn:hover {
+    background-color: transparent;
+    color: #4062bb; }
+  .btn.lined {
+    background-color: transparent;
+    color: #4062bb; }
+    .btn.lined:hover {
+      background-color: #4062bb;
+      color: #ffffff; }
+  .btn.alert {
+    background-color: #d64933;
+    border: solid 2px #d64933; }
+    .btn.alert:hover {
+      background-color: transparent;
+      color: #d64933; }
+    .btn.alert.lined {
+      background-color: transparent;
+      color: #d64933; }
+      .btn.alert.lined:hover {
+        background-color: #d64933;
+        color: #ffffff; }
+  .btn.success {
+    background-color: #0c7c59;
+    border: solid 2px #0c7c59; }
+    .btn.success:hover {
+      background-color: transparent;
+      color: #0c7c59; }
+    .btn.success.lined {
+      background-color: transparent;
+      color: #0c7c59; }
+      .btn.success.lined:hover {
+        background-color: #0c7c59;
+        color: #ffffff; }
+  .btn.info {
+    background-color: #58a4b0;
+    border: solid 2px #58a4b0; }
+    .btn.info:hover {
+      background-color: transparent;
+      color: #58a4b0; }
+    .btn.info.lined {
+      background-color: transparent;
+      color: #58a4b0; }
+      .btn.info.lined:hover {
+        background-color: #58a4b0;
+        color: #ffffff; }
+  .btn.dark {
+    background-color: #252525;
+    border: solid 2px #252525; }
+    .btn.dark:hover {
+      background-color: transparent;
+      color: #252525; }
+    .btn.dark.lined {
+      background-color: transparent;
+      color: #252525; }
+      .btn.dark.lined:hover {
+        background-color: #252525;
+        color: #ffffff; }
+  .btn.warning {
+    background-color: #ff7733;
+    border: solid 2px #ff7733; }
+    .btn.warning:hover {
+      background-color: transparent;
+      color: #ff7733; }
+    .btn.warning.lined {
+      background-color: transparent;
+      color: #ff7733; }
+      .btn.warning.lined:hover {
+        background-color: #ff7733;
+        color: #ffffff; }
+  .btn.rounded {
+    border-radius: 100px; }
+  .btn.lg {
+    padding: 20px 45px; }
+  .btn.hg {
+    padding: 40px 65px; }
+  .btn.grows:hover {
+    transform: scale(1.1); }
+  .btn.shrinks:hover {
+    transform: scale(0.9); }
+  .btn.justify {
+    display: block; }
+
+/*# sourceMappingURL=buttons.css.map */
